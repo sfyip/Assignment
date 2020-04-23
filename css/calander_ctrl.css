@@ -1,0 +1,100 @@
+.calanderCtrl
+{
+    border: 1px solid grey;
+    border-radius:5px;
+
+    width:250px;
+    height:250px;
+
+    margin:5px;
+    padding:2px;
+}
+
+.calanderCtrl table
+{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+}
+
+.calanderCtrl table thead tr th
+{
+    vertical-align:middle;
+    text-align: center;
+
+    color:white;
+    background-color:rgb(23,115,189);
+    font-weight:bold;
+    padding: 5px;
+    cursor:default;
+}
+
+.calanderCtrl_week
+{
+    background-color:blue;
+    color:white;
+    cursor:default;
+}
+
+.calanderCtrl_valid_day, .calanderCtrl_invalid_day
+{
+    vertical-align:middle;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    background-color:rgb(175,215,245);
+    padding: 0px;
+    cursor:default;
+}
+
+.calanderCtrl_valid_day_sunday
+{
+    vertical-align:middle;
+    text-align: center;
+    color: red;
+    background-color:rgb(175,215,245);
+    padding: 0px;
+    cursor:default;
+}
+
+/*calanderCtrl_invalid_day does not have hover behaviour*/
+.calanderCtrl_valid_day:hover, .calanderCtrl_valid_day_sunday:hover
+{
+    color: white;
+    background-color: rgb(255,141,28);
+}
+
+#calanderCtrl_prev_month, #calanderCtrl_next_month
+{
+    font-weight:bolder;
+}
+
+#calanderCtrl_prev_month:hover, #calanderCtrl_next_month:hover
+{
+    background-color: rgb(255,141,28);
+}
+
+#calanderCtrl_prev_year, #calanderCtrl_next_year
+{
+    font-weight:bolder;
+}
+
+#calanderCtrl_prev_year:hover, #calanderCtrl_next_year:hover
+{
+    background-color: rgb(255,141,28);
+}
+
+.calanderCtrl_popup_style
+{
+    z-index:50;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.calanderCtrl_popup_style_placement
+{
+    position:relative;
+}

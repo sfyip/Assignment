@@ -1,0 +1,105 @@
+.resv_list
+{
+    border-collapse: separate;
+    width:100%;
+    border-radius:5px;
+    border: 1px solid grey;
+}
+
+.resv_list thead
+{
+    color:white;
+    background-color: rgb(98,190,14);
+    border:0px;
+}
+
+.resv_list thead tr th
+{
+    font-size:14px;
+    font-weight:bold;
+    text-align:left;
+    padding: 5px 10px;
+}
+
+.resv_list tbody tr td
+{
+    font-size:14px;
+    padding:5px;
+}
+
+.resv_item_is_upcoming td
+{
+    background-color:white; 
+}
+
+.resv_item_is_past td
+{
+    background-color:khaki; 
+}
+
+.resv_item_time
+{
+    text-align:center;
+}
+
+.resv_item_person
+{
+    text-align:center; 
+}
+
+.resv_item_customer_name, .resv_item_customer_detail
+{
+    text-align:left;
+}
+
+.resv_item_restaurant_name, .resv_item_restaurant_detail
+{
+    text-align:left;
+}
+
+.resv_item_msg
+{   
+    text-align:left; 
+}
+
+.resv_item_id
+{
+    text-align:center;     
+}
+                                
+
+.resv_item_change
+{
+    vertical-align:middle;
+    text-align:left;
+}
+
+.resv_item_email
+{
+    vertical-align:middle;
+    text-align:center;
+}
+
+.resv_item_email img
+{
+    width:25px;
+    height:auto;
+    margin:5px;
+    padding:0px;
+}
+
+
+.resv_item_response
+{
+    vertical-align:middle;
+    text-align:center;
+}
+
+.resv_item_response img
+{
+    width:25px;
+    height:auto;
+    margin:5px;
+    padding:0px;
+}
+

@@ -1,0 +1,26 @@
+.resv_process_info
+{
+    font-size: 16px;
+    font-weight: normal;
+    
+    margin: 20px 40px;
+}
+
+.resv_process_info table tbody tr td
+{
+    margin: 10px 40px;
+}
+
+#goto_home_btn
+{
+    margin:20px 40px;
+}
+
+#resv_process_status
+{
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    
+    margin: 10px 20px 40px 20px;
+}

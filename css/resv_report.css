@@ -1,0 +1,47 @@
+h2
+{
+    text-decoration:underline;
+    color: red;
+}
+
+h4
+{
+    color: blue;
+}
+
+table
+{
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-collapse: collapse;
+}
+
+thead
+{
+    border: 1px solid black;
+}
+
+th
+{
+    color: blue;
+    font-weight:bold;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+td
+{
+    text-align: left;
+    padding: 5px 20px;
+}
+
+tfoot
+{
+    border: 1px solid black;  
+}
+
+tfoot tr td
+{
+    text-align: center;
+    font-weight: bold;
+}

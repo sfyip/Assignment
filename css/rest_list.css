@@ -1,0 +1,73 @@
+.rest_list
+{
+    display:block;
+}
+
+.rest_list_item
+{
+    display:inline-block;
+    height:auto;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.rest_list_item a
+{
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+    color: black;
+}
+
+.rest_list_item_thumbnail
+{
+    width:200px;
+    height:auto;
+    border: 0px;
+}
+
+
+.rest_list_item:hover
+{
+    background-color:rgb(200,200,200);
+    border-color: #428bca;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    border-radius:4px;
+}
+
+.rest_list_item_name
+{
+    font-weight:bolder;
+    font-size:14px;
+    max-width:200px;
+    word-wrap:normal;
+}
+
+.rest_list_item_district
+{
+    font-weight:normal;
+    font-size:14px;
+}
+
+.rest_list_item_rank img
+{
+    height:25px;
+    width:auto;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#prev_page
+{
+   text-align:right; 
+}
+
+#next_page
+{
+   text-align:right; 
+}

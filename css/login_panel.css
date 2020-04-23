@@ -1,0 +1,25 @@
+.login_panel
+{
+    color: white;
+
+    font-size: 16px;
+    text-align:left;
+
+    padding:0px;
+    margin:0px;
+}
+
+.login_panel form table
+{
+    background-color: grey;
+    background-color: rgba(0,0,0,0.5); 
+    
+    padding:5px 20px;
+    margin:0px;
+}
+
+.login_panel form input[type="submit"]
+{
+    margin-right:20px;
+}
+

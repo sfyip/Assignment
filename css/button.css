@@ -1,0 +1,30 @@
+/*The button style only discribe the font color and background outlook, the caller will defined their font size, outersize(bigger) if necessary*/
+
+.button
+{
+    color: white;
+    background-color:rgb(105,151,218);
+    background:linear-gradient(rgb(105,151,218) 0%, rgb(65, 80, 138) 100%);
+
+    border-radius:8px;
+    
+    font-size:14px;
+    padding: 5px 10px;
+    
+    border:1px solid rgb(105,151,218);
+}
+
+.button:hover
+{
+    background:rgb(135,181,248);
+    background:linear-gradient(rgb(135,181,248) 0%, rgb(65, 80, 138) 100%);
+
+    border:1px solid grey;
+}
+
+.button_large_style
+{
+    font-weight:bold;
+    font-size:16px;
+    padding: 12px 20px;
+}

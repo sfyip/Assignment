@@ -1,0 +1,38 @@
+.general_regform_category_theme
+{
+    font-size:16px;
+    background-color:orange;
+}
+
+.customer_regform_category_theme
+{
+    font-size:16px;
+    background-color:tomato;
+}
+
+.restaurant_regform_category_theme
+{
+    font-size:16px;
+    background-color:darkslateblue;
+}
+
+.register_form
+{
+
+}
+.register_form table tbody tr td
+{
+    font-weight: normal;
+    font-size:14px;
+    float:left;
+
+    width:200px;
+
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.register_form input[type=submit], .register_form input[type=reset]
+{
+    margin: 5px 5px 10px 5px;
+}

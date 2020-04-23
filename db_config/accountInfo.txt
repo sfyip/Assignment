@@ -1,0 +1,15 @@
+Customer: custid1
+Password: 123456
+
+Customer: custid2
+Password: 123456
+
+
+Restaurant: restid1
+Password: 123456
+
+Restaurant: restid2
+Password: 123456
+
+Webadmin: webadminid1
+Password: 123456

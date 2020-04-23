@@ -1,0 +1,63 @@
+.message_remainder
+{
+    position: relative;
+    background-color: white;
+    padding: 5px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+    background-image: url('../img/icon_message.png');
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    min-height: 60px;
+    margin: 0px 0px 20px 0px;
+}
+
+.message_remainder_close
+{
+    clear:both;
+    display:block;
+}
+
+.message_remainder b
+{
+    position: relative;
+    font-weight:bold;
+    font-size:16px;
+    min-width:300px;
+    margin: 25px 20px 25px 70px;
+}
+
+#messageRemainder_viewBtn
+{
+    float:right;
+    font-size:16px;
+    font-weight:bold;
+
+    padding: 10px;
+
+    margin-right:20px;
+    margin-top:10px;
+}
+
+.message_remainder_detail_view
+{
+    clear: both;
+    text-align:left;
+    padding: 0px 50px 10px 50px;
+    margin: 0px;
+}
+
+.message_remainder_detail_view p
+{
+    clear:both;
+    color:black;
+    font-size:16px;
+    margin:0px 20px;
+}
+
+.message_remainder_detail_view input[type="button"]
+{
+    margin:5px 20px;
+}
+

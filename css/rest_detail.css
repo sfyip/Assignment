@@ -1,0 +1,64 @@
+.rest_detail
+{
+    display:block;
+    text-decoration: none;
+    color: black;
+    margin: 20px 20px 30px 20px;
+}
+
+.rest_detail_thumbnail
+{
+    float:left;
+    height:300px;
+    width:auto;
+    margin: 0px 20px 40px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.rest_detail_name
+{
+    color: rgb(70, 121, 189);
+    font-weight:bolder;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.rest_detail_name::first-letter
+{
+    color: red;
+    font-size: 40px;
+}
+
+.rest_detail_tel, .rest_detail_address, .rest_detail_rank
+{
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:10px; 
+}
+
+.rest_detail_address img, .rest_detail_tel img, .rest_detail_rank img
+{
+    height: 20px;
+    width: auto;
+    margin: 0px 10px 0px 0px;
+}
+
+.rest_detail_desc h4
+{
+    clear:both;
+    display:block;
+    color: grey;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.rest_detail_desc p
+{
+    word-wrap: normal;
+    text-align:justify;
+    font-weight:normal;
+    font-size: 1.5ex;
+    line-height:200%;
+    margin: 10px 20px;
+}

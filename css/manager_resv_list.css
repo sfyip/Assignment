@@ -1,0 +1,28 @@
+.manager_resv_category
+{
+    width:100%;
+}
+
+.manager_resv_list_pickup_date_panel
+{
+    text-align:center;
+    vertical-align:top;
+    width:20%;
+}
+
+#selTodayBtn, #genReportBtn
+{
+    font-size:18px;
+    font-weight:bold;
+
+    padding: 10px 14px;
+    width: 90%;
+        
+    margin: 5px 10px;
+}
+
+.manager_resv_panel_day
+{
+    background-color: rgb(47,160,18);
+}
+

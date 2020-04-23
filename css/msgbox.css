@@ -1,0 +1,48 @@
+.msgbox
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    z-index: 100;
+    min-width:400px;
+    min-height:150px;
+    background-color: white;
+}
+
+.msgbox_icon
+{
+    float:left;
+    
+    display:block;
+    height: 48px;
+    width: auto;
+    
+    padding:0px;
+    margin: 20px 10px;
+}
+
+.msgbox_text
+{
+    float:left;
+    text-align:left;   
+    line-height: 150%;
+    
+    padding: 0px;
+    margin: 10px;
+}
+
+.msgbox_btn_place_holder
+{
+    clear: both;
+    display: block;
+    float: right;
+}
+
+.msgbox_btn1, .msgbox_btn2, .msgbox_btn3
+{
+    clear:both;
+    margin: 5px 5px 10px 5px;
+}

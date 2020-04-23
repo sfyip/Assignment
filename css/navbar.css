@@ -1,0 +1,89 @@
+body {
+    background-color:rgb(175,175,175);
+    background-image:url("./../img/background.jpg");
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.navbar
+{
+    display:table;
+    background:rgb(45,71,158);
+    background:linear-gradient(rgb(45,71,158) 0%, rgb(35, 50, 108) 100%);
+    height: 20px;
+    border-collapse: collapse;
+
+    margin:0px 0px 0px 0px;
+}
+
+.navbar_item
+{
+    display:table-cell;
+
+    vertical-align:middle;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border:1px solid rgb(60, 60, 60);
+    white-space:nowrap;
+
+    padding: 10px 30px;
+
+
+}
+
+.navbar_item:hover
+{
+    background:rgb(95,131,198);
+    background:linear-gradient(rgb(95,131,198) 0%, rgb(65, 80, 138) 100%);
+    border-color:white;
+}
+
+.navbar_item img
+{
+    height:25px;
+    width:auto;
+    padding-right:10px;
+    border: 0px;
+}
+
+.navbar_item a
+{
+    display: block;
+    text-decoration: none;
+
+    color:white;
+
+    width: 100%;
+    height: 100%;
+}
+
+.nav_item_my_brand
+{
+    /*occupy all the remaining space*/
+    text-align:left;
+    width: 100%;
+}
+
+.nav_item_my_brand:hover
+{
+    /*don't change the background and border colour when it is hovered*/
+    background:inherit;
+    border-color:inherit;
+}
+
+.container
+{
+    display:block;
+
+    padding-top:50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom:120px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom:0px;
+}

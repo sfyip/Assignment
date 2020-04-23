@@ -1,0 +1,30 @@
+.panel
+{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(70, 121, 189);
+
+    padding: 0px;
+
+    margin-bottom: 20px;
+}
+
+.panel_title
+{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 121, 189);
+    text-align: left;
+
+    padding: 5px 5px 5px 10px;
+}
+
+.panel_content
+{
+    color: black;
+    background-color: white;
+    font-size: 14px;
+
+    padding: 10px 10px;
+}
+

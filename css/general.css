@@ -1,0 +1,27 @@
+/*
+rules for z-index in this project
+z-index: 100       MSGBOX
+z-index: 80        MASK
+z-index: 50        CONTROL
+z-index: 0          LOWEST
+*/
+
+.invisible_style
+{
+    display:none;
+}
+
+.mask
+{
+    background-color: rgb(66, 66, 66);
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    width:100%;
+    height:100%;
+    
+    z-index: 80;
+    position:fixed;
+    
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,27 @@
+.profile_form_category_theme
+{
+    font-size:16px;
+    background-color: grey;
+}
+
+.profile_form
+{
+
+}
+.profile_form table tbody tr td
+{
+    font-weight: normal;
+    font-size:14px;
+    float:left;
+
+    min-width:200px;
+
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.profile_form input[type=submit], .profile_form input[type=reset]
+{
+    margin: 5px 5px 10px 5px;
+}
+
